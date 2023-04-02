@@ -1,0 +1,80 @@
+@media (max-width: 1286px){
+    .conteiner {
+        width: 98%;
+        height: 65vh;
+    }
+
+    .barra-navegacao {
+        height: auto;
+    }
+
+    .aluno{
+        padding: 0.5rem;
+    }
+
+    .aluno p,a {
+        margin-left: 0.5rem;
+    }
+    .social-media img {
+        width: 45px;
+    }
+
+    .rodape {
+        height: 50%;
+        font-size: 17px;
+        padding: 2rem;
+    }
+
+}
+
+@media (max-width: 1281px){
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        margin: 1rem;
+    }
+
+    .group-navegacao {
+        height: 100px;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .group-navegacao .logo {
+        width: 30%;
+
+    }
+    .exercicio {
+        display: none;
+    }
+
+    .texto-1 {
+        display: none;
+    }
+    .texto-2 {
+        display: none;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .button-group{
+        height: 0;
+        display: flex;
+        align-items: center;
+        justify-content: right
+
+    }
+
+    .rodape {
+        font-size: px;
+        padding: 2rem 0 2rem 0;
+    }
+
+}
+
