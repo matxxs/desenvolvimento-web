@@ -4,6 +4,10 @@
         height: 65vh;
     }
 
+    .group-navegacao {
+        margin: 1rem;
+    }
+
     .barra-navegacao {
         height: auto;
     }
@@ -27,7 +31,7 @@
 
 }
 
-@media (max-width: 1281px){
+@media (max-width: 1278px){
     .conteiner {
         display: flex;
         flex-direction: column;
@@ -38,37 +42,37 @@
     }
 
     .group-navegacao {
-        height: 100px;
         width: 50%;
-        display: flex;
-        flex-wrap: wrap;
+        border-radius: 10px;
+        background-color: inherit;
+
     }
 
     .group-navegacao .logo {
-        width: 30%;
+        align-items: center;
 
     }
     .exercicio {
         display: none;
     }
 
-    .texto-1 {
+ .texto-1 {
         display: none;
-    }
+    } 
     .texto-2 {
-        display: none;
-    }
+      display: none; 
+    } 
 
     iframe {
         display: none;
     }
 
-    .button-group{
-        height: 0;
-        display: flex;
-        align-items: center;
-        justify-content: right
+    .button-group {
+        display: none;
+    }
 
+    .infomacao{
+        width: 95%;
     }
 
     .rodape {
@@ -76,5 +80,24 @@
         padding: 2rem 0 2rem 0;
     }
 
-}
+}    
+    @media (max-width: 1030px){
+        .infomacao{
+            width:60%;
+            display: flex;
+            flex-direction: column;
 
+    }
+
+    .aluno {display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding: 1rem;
+    }
+
+    .rodape {
+        display: none;
+    }
+
+    }
