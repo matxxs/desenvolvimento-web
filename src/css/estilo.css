@@ -230,5 +230,5 @@ html ::-webkit-scrollbar-track {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 0 2rem 0;
 }
