@@ -5,7 +5,7 @@
     --color-navegacao :#F2F2F2  ;
     --color-borda:  rgb(133, 132, 132);
     --color-borda-ana: rgb(10, 2, 255);
-    --color-borda-Hamilton: rgb(7, 253, 122);
+    --color-borda-hamilton: rgb(7, 253, 122);
     --color-borda-thiago: rgb(247, 3, 3);
     --color-borda-matheus: rgb(0, 0, 0);
     --cor-do-texto-button : #ffffff;
@@ -196,7 +196,7 @@ html ::-webkit-scrollbar-track {
 }
 
 .imagem img#i2 {
-    border: solid var(--color-borda-amilton) 5px;
+    border: solid var(--color-borda-hamilton) 5px;
 }
 
 .imagem img#i3 {
