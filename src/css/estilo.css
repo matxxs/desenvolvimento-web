@@ -4,10 +4,6 @@
     --color-logo-de-navegacao: #003A78;
     --color-navegacao :#F2F2F2  ;
     --color-borda:  rgb(133, 132, 132);
-    --color-borda-ana: rgb(10, 2, 255);
-    --color-borda-Hamilton: rgb(7, 253, 122);
-    --color-borda-thiago: rgb(247, 3, 3);
-    --color-borda-matheus: rgb(0, 0, 0);
     --cor-do-texto-button : #ffffff;
     --cor-do-button :  #126DA6;
 }
@@ -29,11 +25,6 @@ a {
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Inter', sans-serif;
 
 }
@@ -55,14 +46,14 @@ body {
     font-size: 15px;
 }
 
-.conteiner {
-    width: 97%;
+.conteiner-geral {
+    width: 90%;
     height: 70vh;
     display: flex;
     justify-content: center;
 }
 
-.group-navegacao {
+.conteiner-navegacao {
     background-color: var(--color-navegacao);
     width: 50vh;
     display: flex;
@@ -103,12 +94,7 @@ html ::-webkit-scrollbar-track {
 }
 
 
-.barra-navegacao .exercicio li {
-    padding: 0.2rem;
-}
-
-
-.texto-1 {
+.texto.a {
     height: 20vh;
     display: flex;
     flex-direction: column;
@@ -116,21 +102,28 @@ html ::-webkit-scrollbar-track {
     align-items: center;
 }
 
-.texto-1 h4 {
+.texto.a h4 {
     padding: 1rem;
 }
 
-.texto-1 p {
+.texto.a p {
     padding: 0.5rem 0 0 0;
-
 }
 
-.texto-2 {
+.texto.b li{
+    padding: 0.2rem;
+}
+
+.texto.c {
     padding: 2rem 0.5rem 2rem 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.texto.d p{
+    padding: 0.5rem;
 }
 
 
@@ -162,73 +155,18 @@ html ::-webkit-scrollbar-track {
 
 
 
-.infomacao {
+.conteiner-conteudo  {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     border: none;
     box-shadow: 1px 1px 6px var(--color-borda);
 }
 
-.aluno {
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
-
-.aluno p {
-    margin-left: 1rem;
-}
-
-.imagem img {
-    width: 150px;
-    height: 150px;
-    padding: 0.3rem;
-    border-radius: 50%;
-}
-
-.imagem img#i1 {
-    border: solid var(--color-borda-ana) 5px;
-
-}
-
-.imagem img#i2 {
-    border: solid var(--color-borda-amilton) 5px;
-}
-
-.imagem img#i3 {
-    border: solid var(--color-borda-thiago) 5px;
-}
-
-.imagem img#i4 {
-    border: solid var(--color-borda-matheus) 5px;
-}
-
-.social-media p {
-    padding: 3px;
-    font-size: 1rem;
-    font-weight: 600px;
-    color: #000000c0;
-}
-
-.social-media img {
-    width: 50px;
-}
-
-.social-media img {
-    transition: 0.2 ease-in-out;
-}
-
-.social-media img:hover {
-    transform: scale(1.2);
-}
-
 .rodape {
     margin-top: 1rem;
-    font-size: 20px;
+    font-size: 18px;
     height: 50px;
     display: flex;
     justify-content: center;
