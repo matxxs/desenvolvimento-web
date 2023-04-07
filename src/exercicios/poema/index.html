@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Poema </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            max-width: 1920px;
+        }
+
+        :root {
+            --cor-marrom: #695D46;
+            --cor-azul: #0511F2;
+            --cor-verde: #6CA651;
+            --cor-vermelho: #F20505;
+            --cor-rosa: #FF00FF;
+            --color-borda: rgb(133, 132, 132);
+
+        }
+
+
+        body {
+            background-color: beige;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .texto-group {
+            background-color: #ffffff;
+            width: 50%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: none;
+            box-shadow: 1px 1px 6px var(--color-borda);
+        }
+
+        .texto {
+            margin-left: 2rem;
+            padding: 0.5rem;
+        }
+
+        .texto.a {
+            text-align: center;
+            color: var(--cor-marrom);
+        }
+
+        .texto.b {
+            color: var(--cor-azul);
+        }
+
+        .texto.c {
+            color: var(--cor-marrom);
+        }
+
+        .texto.d {
+            font-size: 12px;
+            color: var(--cor-marrom);
+        }
+
+        .texto.e {
+            color: var(--cor-verde);
+        }
+
+        .texto.f {
+            color: var(--cor-rosa);
+            font-size: 30px;
+        }
+
+        .texto.g {
+            text-align: center;
+            color: var(--cor-vermelho);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="texto-group">
+        <h4 class="texto a"> José </h4>
+        <p class="texto b"><b> E agora, José?</b></p>
+        <p class="texto c"><i> A festa acabou,</i></p>
+        <p class="texto d"> a luz apagou</p>
+        <u class="texto e"> o povo sumiu, </u>
+        <p class="texto f"> a noite esfriou</p>
+        <b class="texto g">
+            < agora, José?>
+        </b>
+    </div>
+
+</body>
+
+</html>
